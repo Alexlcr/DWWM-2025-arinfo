@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ville de Troyes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <button class="sidebar-btn active">
+            <span>Accueil</span>
+        </button>
+        
+        <a href="activites.html"><button class="sidebar-btn">
+            <span>Activités</span>
+        </button></a>
+
+        <a href="contact.html"><button class="sidebar-btn">
+            <span>Nous contacter</span>
+        </button></a>
+
+        <button class="sidebar-toggle">
+            <script>
+                const toggleBtn = document.querySelector('.sidebar-toggle');
+                const sidebar = document.querySelector('.sidebar');
+                toggleBtn.addEventListener('click', function() {
+                    sidebar.classList.toggle('collapsed');
+                });
+            </script>
+            <img src="ico/sidebar.png" alt="" class="ico-toggle">
+        </button>
+    </div>
+
+
+    <main>
+        <h1>Ville de Troyes</h1>
+        <div class="bd"></div>
+        </aside>
+        <img class="img_acc" src="https://images.winalist.com/blog/wp-content/uploads/2021/05/26144021/AdobeStock_126159931.jpeg" alt="">
+        <p>Troyes est une ville française de la région Grand Est. Sa vieille ville médiévale est sillonné bordées de maisons à colombages colorées, construites pour la plupart au XVIe siècle. La ville est agrémentée de plusieurs églises gothiques aux remarquables vitraux, notamment la cathédrale de Troyes, l'église Sainte-Madeleine et la basilique Saint-Urbain </p>
+        <div class="bd"></div>
+            <iframe class=video width="1264" height="711" src="https://www.youtube.com/embed/H--EczcUg3M" title="Troyes en compétition pour le plus beau centre-ville de France" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="bd"></div>
+            <iframe class="map" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=3.945121765136719%2C48.24262445450487%2C4.164161682128907%2C48.34221667501841&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?#map=13/48.29244/4.05464">Afficher une carte plus grande</a>
+            </small>
+            </iframe>
+    </main>
+</body>
+</html>

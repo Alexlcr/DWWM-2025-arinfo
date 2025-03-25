@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="index.html"><button class="sidebar-btn ">
+            <span>Accueil</span>
+        </button></a>
+        <a href="activites.html"><button class="sidebar-btn">
+            <span>Activités</span>
+        </button></a>
+        <button class="sidebar-btn active">
+            
+            <span>Nous contacter</span>
+            
+        </button>
+        <button class="sidebar-toggle">
+            <script>
+                // Gestion du toggle
+                const toggleBtn = document.querySelector('.sidebar-toggle');
+                const sidebar = document.querySelector('.sidebar');
+                
+                toggleBtn.addEventListener('click', function() {
+                    sidebar.classList.toggle('collapsed');
+                });
+            </script>
+            <img src="ico/sidebar.png" alt="" class="ico-toggle">
+        </button>
+    </div>
+    </div>
+
+        <div class="bd"></div>
+    <h4>Remplissez ce formulaire pour être recontacter</h4>
+    <form action="" method="POST">
+            <label for="nom">Nom:</label>
+            <input type="text" name="nom" placeholder="Nom" required>
+        <div>
+            <label for="prenom">Prénom:</label>
+            <input type="text" name="prenom" placeholder="Prénom" required>
+        </div>
+            <label for="adresse">Adresse:</label>
+            <input type="text" name="adresse" placeholder="Adresse" required>
+        <div>
+            <label for="numero">Numéro de téléphone</label>
+            <input type="text" name="numero" placeholder="Numéro de téléphone">
+        </div>
+        <button class="send">Envoyer</button>
+        
+    </form>
+</body>
+</html>

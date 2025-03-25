@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Nos activités</title>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="index.html"><button class="sidebar-btn">
+            <span>Accueil</span>
+        </button></a>
+        <button class="sidebar-btn active">
+            <span>Activités</span>
+        </button>
+        <a href="contact.html"><button class="sidebar-btn">
+            
+            <span>Nous contacter</span>
+            
+        </button></a>
+        <button class="sidebar-toggle">
+            <script>
+                // Gestion du toggle
+                const toggleBtn = document.querySelector('.sidebar-toggle');
+                const sidebar = document.querySelector('.sidebar');
+                
+                toggleBtn.addEventListener('click', function() {
+                    sidebar.classList.toggle('collapsed');
+                });
+            </script>
+            <img src="ico/sidebar.png" alt="" class="ico-toggle">
+        </button>
+    </div>
+        <div class="bd"></div>
+    <table border="1">
+        <tr>
+            <th colspan="3">Nos activités</th>
+        </tr>
+        <tr>
+            <th>Activité</th>
+            <th>Prix</th>
+            <th>Réservation</th>
+        </tr>
+        <tr>
+            <td>Visite guidée</td>
+            <td>1.3x10e35€/pers</td>
+            <td><a href=""><button class="send">Réserver</button></a></td>
+        </tr>
+        <tr>
+            <td>Accrobranche</td>
+            <td>35€/pers</td>
+            <td><a href=""><button class="send">Réserver</button></a></td>
+        </tr>
+        <tr>
+            <td>Atelier Cybersécurité</td>
+            <td>Gratuit</td>
+            <td><a href=""><button class="send">Réserver</button></a></td>
+        </tr>
+        <tr>
+            <td>Alcoolisme</td>
+            <td>8,50€/pinte</td>
+            <td><a href=""><button class="send">Réserver</button></a></td>
+        </tr>
+        <tr>
+            <td>Dégrisement</td>
+            <td>Tarif en fonction de l'activité ci-dessus</td>
+        </tr>
+    </table>
+</body>
+</html>
