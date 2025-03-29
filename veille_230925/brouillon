@@ -1,1 +1,12 @@
+importance et impact des flexboxs
 
+les lfexboxs travaillent en une dimensions contrairement aux grids
+  --> avantages inconvénients ?
+    -avantages ---> supporté sur tous les navigateurs / 
+    -inconvéients --->
+
+ce que remplace les flexboxs
+-block
+-inline
+-table 
+-positioned
