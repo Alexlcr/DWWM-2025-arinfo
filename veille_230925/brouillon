@@ -1,12 +1,60 @@
 importance et impact des flexboxs
 
-les lfexboxs travaillent en une dimensions contrairement aux grids
-  --> avantages inconvénients ?
-    -avantages ---> supporté sur tous les navigateurs / 
-    -inconvéients --->
+(***le canard a une question)
 
-ce que remplace les flexboxs
--block
--inline
--table 
--positioned
+les lfexboxs travaillent en une dimensions contrairement aux grids
+  --> avantages inconvénients ***
+    -avantages ---> supporté sur tous les navigateurs / meilleur control sur les alignements et la distibution d'espaces ***
+                    /
+    -inconvéients --->
+_________________________________________________
+
+(surement impertinent)
+  ce que remplace les flexboxs
+  -block***
+  -inline***
+  -table ***
+  -positioned***
+
+__________________________________________________
+
+ce qu'utilisent les flexboxs:
+flex-direction
+flex-wrap
+flex-flow
+justify-content
+align-items
+align-content
+
+flex-direction:
+  détermine la direction du contenu dans le container
+  row/row-reverse: dispose le contenu en ligne (reverse pour le disposer dans le sens inverse)
+  column/column-reverse: dispose le contenu en colone             ""
+
+flex-wrap:
+  permet de définir si le contenu revient à la ligne automatiquement (utile pour le responsive ?***(hooray le canard a sa réponse: oui)
+  nowrap: les objets ne reviendront pas à la ligne 
+  wrap: les objets reviendront automatiquement à la ligne du dessous (si ils y sont autorisés***)
+  wrap-reverse: les ojets reviennent à la ligne (les derniers objets se place à la ligne du dessus)
+
+flex-flow
+  permet de réunir flex-direction et flex-wrap en une seule propriété en indicant la diraction des objets du container et si ils doivent revenir à la ligne
+
+justify-content: (agit seulement sur l'absice et non sur lordonée)
+  center: place tous les objets du container en son centre
+  flex-start: place tous les ojets à gauche
+  flex-end: place tous les objets à droite
+  space-around: attribu un espace de chaque côté de CHAQUE objet
+  space-between: attribura le plus d'espace possible entre chaque objet du container
+  space-evenly: même principe que space-between mais en prenant les bordure du container en compte
+
+align-content: (agit seulement sur l'ordonnée et non sur l'absice)
+  center: place tous les objets du container en son centre
+  flex-start: place tous les ojets en haut
+  flex-end: place tous les objets à bas
+  space-around: attribu un espace de chaque côté de CHAQUE objet
+  space-between: attribura le plus d'espace possible entre chaque objet du container
+  space-evenly: même principe que space-between mais en prenant les bordure du container en compte
+
+align-intems
+
