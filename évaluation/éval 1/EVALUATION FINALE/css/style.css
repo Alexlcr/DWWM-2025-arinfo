@@ -127,7 +127,9 @@ header{
     width: 250px;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 #decouvrir{
@@ -147,7 +149,10 @@ header{
     border-color: white;
     color: white;
     cursor: pointer;
-    margin: 10vw;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
 }
 
 /* section 3 avec image et texte pour l'histoire */
