@@ -1,0 +1,9 @@
+@import './partials/animations';
+
+#cardLeft{
+    @include animLeft
+}
+
+#cardRight{
+    @include animRight
+}

@@ -1,0 +1,36 @@
+@mixin animLeft{
+    animation: slideInLeft 1s ease-in-out forwards;
+    animation-delay: .5s;
+
+    @keyframes slideInLeft {
+        0% {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+}
+@mixin animRight{
+    animation: slideInRight 1s ease-in-out forwards;
+    animation-delay: .5s;
+
+    @keyframes slideInRight {
+        0% {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        100% {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+}
+
+@mixin popOut{
+    animation: popOut 1s ease
+
+
+}
