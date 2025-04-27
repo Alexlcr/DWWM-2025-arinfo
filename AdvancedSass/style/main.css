@@ -1,0 +1,64 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+header {
+  background-color: rgb(1, 107, 1);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+footer {
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+  width: 100%;
+}
+
+body h1 {
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 576px) {
+  body h1 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 576px) {
+  body h1 {
+    font-size: 1.5rem;
+  }
+}
+
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn :nth-child(1) {
+  margin: 10px;
+  border: none;
+  padding: 12px;
+  background-color: red;
+  color: white;
+}
+.btn :nth-child(1):hover {
+  background-color: rgba(255, 0, 0, 0.5);
+  cursor: pointer;
+}
+.btn :nth-child(2) {
+  margin: 10px;
+  border: none;
+  padding: 12px;
+  background-color: green;
+  color: black;
+}
+.btn :nth-child(2):hover {
+  background-color: rgba(0, 128, 0, 0.5);
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */

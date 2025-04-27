@@ -1,0 +1,14 @@
+@function adjust-lightness($color, $amount) {
+    
+    @if $amount == 0 {
+    @return $color;
+    }
+
+    @if $amount > 0 {
+    @return scale-color($color, $lightness: $amount);
+    } 
+    
+    @else {
+    @return scale-color($color, $lightness: $amount);
+    }
+}
