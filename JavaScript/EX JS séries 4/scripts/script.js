@@ -11,3 +11,9 @@ for (i in tabEX2) {
     somme = somme + tabEX2[i];
     }
 console.log(somme);
+
+//EX 3
+let strEX3 = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, magni."
+function longestWord(str){
+    
+}
