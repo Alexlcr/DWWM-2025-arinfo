@@ -1,0 +1,84 @@
+main{
+    width: 100%;
+    height: 100vh;
+}
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(5, 100px);
+}
+
+button{
+    width: 100px;
+    height: 100px;
+}
+
+#un{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#deux{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#trois{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#quatre{
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#cinq{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+#six{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#sept{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+#huit{
+    grid-column: 2;
+    grid-row: 3;
+}
+
+#neuf{
+    grid-column: 3;
+    grid-row: 3;
+}
+
+#zero{
+    grid-column: 2;
+    grid-row: 4;
+}
+
+#multiplier{
+    grid-column: 4;
+    grid-row: 2;
+}
+
+#diviser{
+    grid-column: 4;
+    grid-row: 3;
+}
+
+#addition{
+    grid-column: 4;
+    grid-row: 4;
+}
+
+#soustraire{
+    grid-column: 4;
+    grid-row: 5;
+}

@@ -61,3 +61,62 @@ function pairs(tab){
     return tabPair;
 }
 console.log(pairs(tabEX6));
+
+//EX7
+let produitsEX7 = [
+    {nom: "Produit 1", prix : 10},
+    {nom: "Produit 2", prix : 20},
+    {nom: "Produit 3", prix : 30},
+];
+
+function compterProduits(produits){
+    nbProduits = 0;
+    for (i in produits){
+        nbProduits++;
+    }
+    return nbProduits;
+}
+
+console.log(compterProduits(produitsEX7));
+
+//EX8
+let produitEX8 = [
+    {nom: "Produit 1", prix : 10},
+    {nom: "Produit 2", prix : 20},
+    {nom: "Produit 3", prix : 30},];
+
+function extraireNomProduits(produits){
+    tabNomProduits = [];
+    for (i in produits){
+        tabNomProduits.push(produits[i].nom);
+    }
+    return tabNomProduits;
+}
+console.log(extraireNomProduits(produitEX8));
+
+//EX9
+
+function fact(n){
+    let result = 1;
+    while (n !== 1){
+    result = result * n;
+    n = n - 1}
+    return result;
+}
+
+n = parseInt(prompt('Nombre'))
+console.log(fact(n));
+
+//EX10
+let tabEX10 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+function estCroissant(tab){
+    for (let i = 1; i < tab.length - 1; i++){
+        if (tab[i] < tab[i - 1]){
+            return false;
+        }else{
+            continue;
+        }
+    }
+    return true;
+}
+console.log(estCroissant(tabEX10));
