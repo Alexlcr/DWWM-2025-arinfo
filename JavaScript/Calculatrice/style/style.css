@@ -15,52 +15,52 @@ button{
 
 #un{
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 2;
 }
 
 #deux{
     grid-column: 2;
-    grid-row: 1;
+    grid-row: 2;
 }
 
 #trois{
     grid-column: 3;
-    grid-row: 1;
+    grid-row: 2;
 }
 
 #quatre{
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 3;
 }
 
 #cinq{
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 3;
 }
 
 #six{
     grid-column: 3;
-    grid-row: 2;
+    grid-row: 3;
 }
 
 #sept{
     grid-column: 1;
-    grid-row: 3;
+    grid-row: 4;
 }
 
 #huit{
     grid-column: 2;
-    grid-row: 3;
+    grid-row: 4;
 }
 
 #neuf{
     grid-column: 3;
-    grid-row: 3;
+    grid-row: 4;
 }
 
 #zero{
     grid-column: 2;
-    grid-row: 4;
+    grid-row: 5;
 }
 
 #multiplier{
@@ -80,5 +80,10 @@ button{
 
 #soustraire{
     grid-column: 4;
+    grid-row: 5;
+}
+
+#egal{
+    grid-column: 1;
     grid-row: 5;
 }
